@@ -13,3 +13,4 @@
          (firefox_needs_install is defined))
 
 - include: firefox_cleanup.yml
+  when: firefox_needs_install is defined
